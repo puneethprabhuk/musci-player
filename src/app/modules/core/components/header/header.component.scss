@@ -1,0 +1,15 @@
+@import '../../../../../styles.scss';
+.header-container {
+    color: $primary-text-color;
+    background-color: $secondary-color;
+    height: 10vh;
+    padding: 0 2rem;
+    .wish {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .username {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}

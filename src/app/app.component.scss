@@ -1,0 +1,10 @@
+.app-container {
+    display: flex;
+    .app-navbar {
+        flex: 1;
+    }
+
+    .app-content {
+        flex: 4;
+    }
+}

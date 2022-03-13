@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap');
+@import './utility.scss'; 
+@import './variable.scss'; 
 
 * {
     margin: 0;
@@ -8,4 +10,12 @@
 
 body {
     font-family: 'Sora', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }

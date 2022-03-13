@@ -1,0 +1,29 @@
+@import '../../../../../styles.scss';
+.navbar {
+    height: 100vh;
+    background-color: $primary-color;
+    &-container {
+        height: 100%;
+        padding: 1rem 2rem;
+        .nav-title {
+            color: $primary-text-color;
+        }
+        .nav-list {
+            .list-item {
+                color: $secondary-text-color;
+                font-size: 1.1rem;
+                font-weight: 500;
+                cursor: pointer;
+                &:hover {
+                    color: $primary-text-color;
+                }
+                i {
+                    margin-right: .8rem;
+                }
+            }
+        }
+        hr {
+            color: $secondary-text-color;
+        }
+    }
+}
